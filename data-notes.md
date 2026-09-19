@@ -68,3 +68,12 @@
 - Key columns: Band 1 (elevation values)
 - Geometry: Raster grid
 - Gaps/missing values: No missing-value issue was observed when the raster was opened in QGIS; the dataset was clipped to the Obio/Akpor study area.
+ ## CRS and preparation
+
+- Source layers used for the project were in EPSG:4326 (WGS 84).
+- Study area: Obio/Akpor Local Government Area, Rivers State.
+- The study-area boundary was extracted and saved as `study_area.gpkg`.
+- Project layers were clipped to the Obio/Akpor study area.
+- Clipped layers were reprojected to EPSG:32632 (WGS 84 / UTM Zone 32N).
+- Working files are saved in `data/processed/`.
+- Files in `data/raw/` were left untouched.
