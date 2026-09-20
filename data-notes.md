@@ -74,6 +74,22 @@
 - Study area: Obio/Akpor Local Government Area, Rivers State.
 - The study-area boundary was extracted and saved as `study_area.gpkg`.
 - Project layers were clipped to the Obio/Akpor study area.
-- Clipped layers were reprojected to EPSG:32632 (WGS 84 / UTM Zone 32N).
-- Working files are saved in `data/processed/`.
+- Clipped layers were reprojected to EPSG:32632 (WGS 84 / UTM Zone 32N) because it is the appropriate projected CRS for the study area and allows distances and areas to be measured in metres.
+- The analysis-ready GeoPackage is saved as `data/processed/obio_akpor_analysis_ready.gpkg`.
 - Files in `data/raw/` were left untouched.
+  ## Five data quality checks
+
+### 1. Completeness
+The data was checked against the Google Satellite basemap and the study area. The main layers are present for the Obio/Akpor study area, but OpenStreetMap drainage data has gaps. In particular, the mapped drains and ditches do not represent all drainage features visible on the satellite imagery. These gaps were flagged rather than treated as complete coverage.
+
+### 2. Currency
+The datasets were reviewed for available source information and dates. The OSM data represents mapped features available from OpenStreetMap at the time of download, while the other datasets have their own source dates. The source dates should be considered when interpreting the results, particularly for features that may have changed over time.
+
+### 3. Positional accuracy
+The vector layers were visually compared with the Google Satellite basemap. The mapped features generally fall in the expected locations, although satellite imagery and mapped features may not align perfectly in every location. No major positional problem was identified that required correction.
+
+### 4. Attribute accuracy
+The attribute information was reviewed for the downloaded layers. The main feature classifications and attributes are usable for the intended analysis, but OpenStreetMap attributes depend on how features were mapped and tagged. No major attribute problem requiring correction was identified; limitations in OSM attributes were flagged.
+
+### 5. Fitness for purpose
+The prepared data is suitable for the planned flooding analysis because it provides the Obio/Akpor boundary, roads, drainage-related features, rivers, streams, settlements, and elevation data. However, the incomplete OSM drainage coverage means the absence of a mapped drainage feature should not be interpreted as proof that no drainage exists.
