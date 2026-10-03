@@ -29,3 +29,8 @@ A 100 m buffer was created around the mapped river feature in the projected CRS.
 ## Result
 
 The Week 4 analysis identified the mapped river corridor and its 100 m buffer as an area of proximity to surface water within Obio/Akpor LGA. Further analysis is still needed to incorporate elevation, drainage conditions, and broader surface-water patterns into the flooding exposure assessment.
+
+## Month 02 - Development Environment and Early Python
+
+### Week 5 - Python Development Environment
+Python was set up and verified in VS Code using python --version, pwd, and python hello.py.
