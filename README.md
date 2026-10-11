@@ -34,3 +34,6 @@ The Week 4 analysis identified the mapped river corridor and its 100 m buffer as
 
 ### Week 5 - Python Development Environment
 Python was set up and verified in VS Code using python --version, pwd, and python hello.py.
+
+### Week 6 - Python Project Setup with uv
+Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
