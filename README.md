@@ -37,3 +37,6 @@ Python was set up and verified in VS Code using python --version, pwd, and pytho
 
 ### Week 6 - Python Project Setup with uv
 Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
+
+### Week 7 - Python, the six ideas
+- Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
