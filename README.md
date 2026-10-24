@@ -90,9 +90,7 @@ Worked with Python to read CSV files, process rows, convert area values into num
 
 ## Week 8 — CSV Data Inspection and Reusable Functions
 
-Developed `inspect_data.py` to inspect CSV datasets using Python. The practical covers reading CSV data, handling empty values, working with dictionaries, and using a reusable function to return summary statistics for numeric columns.
-
-The function is designed to report the smallest value, largest value, and count of valid numeric values for a selected column. The practical uses the Week 8 CSV dataset to test the inspection of two numeric columns.
+Week 8: `inspect_data.py` summarises `area_km2` and `population` in my `ward.csv` dataset.
 
 **Deliverables:**
 - [inspect_data.py](Month%202/week-8/inspect_data.py)
