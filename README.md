@@ -58,11 +58,9 @@ Developed `analyse.py` to read ward data from `wards.csv`, extract area values, 
 
 ### Week 8 — CSV Data Inspection
 
-`inspect_data.py` summarises two columns in my project dataset using Python.
+Week 8: `inspect_data.py` summarises length and straight-line distance (`straight_m`) in my Obio/Akpor streams data.
 
-**Deliverables:** [`inspect_data.py`](inspect_data.py), [`ward.csv`](ward.csv), and [`screenshots/week8.png`](screenshots/week8.png)
-
----
+**Deliverables:** [`inspect_data.py`](inspect_data.py), [`streams_data.csv`](streams_data.csv), and [`screenshots/week8.png`](screenshots/week8.png)
 
 ## Repository Organisation
 
