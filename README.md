@@ -10,114 +10,69 @@ Which areas of the study area are most exposed to flooding in relation to draina
 
 ---
 
-# Month 1 — GIS and Spatial Analysis
+## Weekly Progress Log
 
-Month 1 focused on defining the GIS project, documenting and preparing spatial datasets, and conducting an initial spatial analysis.
-
-## Week 1 — Project Brief
+### Week 1 — Project Brief
 
 Defined the project question, objectives, datasets, data sources, and proposed GIS outputs.
 
-**Deliverable:**
-- [Project Brief](Month%201/Week-1/project-brief.md)
+**Deliverable:** `project-brief.md`
 
-## Week 2 — Data Notes
+### Week 2 — Data Notes
 
-Documented the downloaded datasets, their sources, important attribute fields, geometry, and data limitations.
+Documented relevant project data, data sources, and supporting information for the GIS investigation.
 
-**Deliverable:**
-- [Data Notes](Month%201/week-2/data-notes.md)
+**Deliverable:** `data-notes.md`
 
-## Week 3 — Prepared Data
+### Week 3 — Spatial Analysis
 
-Prepared the spatial data using the projected working coordinate reference system (CRS), clipped the datasets to the study area, and saved the prepared data as an analysis-ready GeoPackage.
+Conducted the initial spatial analysis for the study area and documented the findings.
 
-**Deliverable:**
-- [Analysis-ready GeoPackage](Month%201/week-3/obio_akpor_analysis_ready.gpkg)
+**Deliverable:** `obio_akpor_analysis_ready.gpkg` and the associated analysis file, where applicable.
 
-## Week 4 — Spatial Analysis
+### Week 4 — River Buffer Mapping
 
-Created a 100 m buffer around the mapped river feature using the projected CRS. The output contained one feature, and no empty geometry was found.
+Created a river buffer map to examine proximity to surface water and its relevance to flood exposure.
 
-**Deliverable:**
-- [Week 4 River Buffer Map](Month%201/week-4/week4_river_buffer_map.png)
+The Week 4 analysis identified the mapped river corridor and its 100 m buffer as an area of proximity to surface water. Further analysis is needed to incorporate elevation, drainage conditions, and broader surface-water patterns into the flooding exposure assessment.
 
-### Month 1 Result
+**Deliverable:** Week 4 river buffer map and associated project files.
 
-The initial analysis identified the mapped river corridor and its 100 m buffer as an area of proximity to surface water. Further analysis is required to incorporate elevation, drainage conditions, and broader surface-water patterns into the flood-exposure assessment.
+### Week 5 — Python Development Environment
 
-**Month 1 Summary:**
-- [Read the Month 1 Summary](month-1-summary.md)
+Set up and verified the Python development environment in Visual Studio Code. Created and ran a simple Python script to confirm that Python was working.
 
----
+**Deliverable:** `hello.py`
 
-# Month 2 — Development Environment and Early Python
+### Week 6 — Python Project Setup with uv
 
-Month 2 focused on Python development, project environment management, programming fundamentals, CSV data inspection, and reusable functions.
+Configured the Python project using `uv` and established the project environment. Used `check.py` to practise checking the installed pandas version.
 
-## Week 5 — Python Development Environment
+**Deliverables:** `pyproject.toml`, `uv.lock`, and `check.py`
 
-Set up and verified the Python development environment in Visual Studio Code. Tested Python by checking the installed version, inspecting the working directory, and running a basic Python script.
+### Week 7 — Python CSV Analysis
 
-**Deliverable:**
-- [hello.py](Month%202/week-5/hello.py)
+Developed `analyse.py` to read ward data from `wards.csv`, extract area values, convert square kilometres to hectares, and classify wards as large or small using an area threshold of 9 km².
 
-**Screenshot:**
-- [Week 5 Screenshot](screenshots/week5.png)
+**Deliverables:** `analyse.py` and `wards.csv`
 
-## Week 6 — Python Project Setup with uv
+### Week 8 — CSV Data Inspection
 
-Configured the Python project using `uv`, established the project dependency configuration, and added pandas for data analysis. The environment was prepared for subsequent Python practicals.
+- Week 8: `inspect_data.py` summarises two columns in my project dataset using Python.
 
-**Deliverables:**
-- [pyproject.toml](Month%202/week-6/pyproject.toml)
-- [uv.lock](Month%202/week-6/uv.lock)
-
-**Screenshot:**
-- [Week 6 Screenshot](screenshots/week6.png)
-
-## Week 7 — Python: The Six Ideas
-
-Worked with Python to read CSV files, process rows, convert area values into numeric data, calculate area in hectares, and classify wards according to their area. Also used a separate script to verify the pandas installation.
-
-**Deliverables:**
-- [analyse.py](Month%202/week-7/analyse.py)
-- [check.py](Month%202/week-7/check.py)
-- [wards.csv](Month%202/week-7/wards.csv)
-
-**Screenshot:**
-- [Week 7 Screenshot](screenshots/week7.png)
-
-## Week 8 — CSV Data Inspection and Reusable Functions
-
-Week 8: `inspect_data.py` summarises `area_km2` and `population` in my `ward.csv` dataset.
-
-**Deliverables:**
-- [inspect_data.py](Month%202/week-8/inspect_data.py)
-- [Week 8 CSV Dataset](Month%202/week-8/ward.csv)
-
-**Screenshot:**
-- [Week 8 Screenshot](screenshots/week8.png)
+**Deliverables:** `inspect_data.py`, the appropriate project CSV, and `screenshots/week8.png`
 
 ---
+
+## Repository Organisation
+
+Project files are maintained directly in the repository root rather than in separate nested folders for each week.
+
+The `screenshots/` directory contains visual evidence of weekly practical work.
 
 ## Screenshots
 
-Screenshots documenting the Month 2 practicals are available in the `screenshots/` folder.
-
-- [Week 5 — Python Environment](screenshots/week5.png)
-- [Week 6 — Project Setup](screenshots/week6.png)
-- [Week 7 — Python Fundamentals](screenshots/week7.png)
-- [Week 8 — CSV Inspection](screenshots/week8.png)
-
----
-
-## Repository Structure
-
-The repository is organised by month and week to make each practical and its deliverables easy to locate.
-
-- `Month 1/` — Weeks 1–4: GIS project planning, data documentation, spatial data preparation, and spatial analysis.
-- `Month 2/` — Weeks 5–8: Python environment setup, project configuration, Python fundamentals, and CSV data inspection.
-- `screenshots/` — Screenshots documenting the weekly practicals.
-- `month-1-summary.md` — Summary of the first month's GIS work.
-- `README.md` — Project overview, weekly progress, and links to deliverables.
+- `screenshots/week5.png` — Week 5 practical
+- `screenshots/week6.png` — Week 6 practical
+- `screenshots/week7.png` — Week 7 practical
+- `screenshots/week8.png` — Week 8 practical 
