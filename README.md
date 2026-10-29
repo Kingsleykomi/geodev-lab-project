@@ -62,6 +62,19 @@ Week 8: `inspect_data.py` summarises length and straight-line distance (`straigh
 
 **Deliverables:** [`inspect_data.py`](inspect_data.py), [`streams_data.csv`](streams_data.csv), and [`screenshots/week8.png`](screenshots/week8.png)
 
+
+
+### Week 9 – Consolidation and Refactoring
+
+Week 9: `summary.py` refactors the Week 8 data inspection script into three reusable functions: `read_rows()`, `clean_values()`, and `summarise()`. The `summarise_all()` function calculates descriptive statistics for the `length` and `straight_m` columns in my Month 1 dataset.
+
+**Deliverables:** [`summary.py`](summary.py) and [`screenshots/week9.png`](screenshots/week9.png).
+
+### Month 2 reflection
+
+This month, I gained a better understanding of how Python functions, loops, dictionaries, and CSV files work together to process data. The idea that finally clicked for me was breaking a long script into smaller functions, with each function performing one specific task. I still need more practice handling errors and working confidently with different data structures. My capstone shows that my Month 1 stream dataset contains 60 records and allows me to summarise the length and straight-line distance columns using descriptive statistics.
+
+
 ## Repository Organisation
 
 Project files are maintained directly in the repository root rather than in separate nested folders for each week.
