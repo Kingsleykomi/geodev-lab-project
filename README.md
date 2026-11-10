@@ -74,12 +74,14 @@ Week 9: `summary.py` refactors the Week 8 data inspection script into three reus
 
 This month, I gained a better understanding of how Python functions, loops, dictionaries, and CSV files work together to process data. The idea that finally clicked for me was breaking a long script into smaller functions, with each function performing one specific task. I still need more practice handling errors and working confidently with different data structures. My capstone shows that my Month 1 stream dataset contains 60 records and allows me to summarise the length and straight-line distance columns using descriptive statistics.
 
+## Month 3: geospatial Python and automation
 
-## Repository Organisation
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my wards layer in code.
 
-Project files are maintained directly in the repository root rather than in separate nested folders for each week.
 
-The [`screenshots/`](screenshots) directory contains visual evidence of weekly practical work.
+
+
+The [`screenshots/`](screenshots) directory contains visual evidence of weekly practical work for month 1 and month 2.
 
 ## Screenshots
 
