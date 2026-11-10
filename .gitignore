@@ -1,0 +1,18 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Heavy rasters and archives
+*.tif
+*.TIF
+*.zip
+*.tar.gz
+
+# Heavy data file (too big for GitHub)
+Data/Raw/GRID3_NGA_settlement_extents*
+
+#Editor and system clutter
+.DS_Store
+Thumbs.db
+.vscode/
