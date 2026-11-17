@@ -78,6 +78,10 @@ This month, I gained a better understanding of how Python functions, loops, dict
 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my wards layer in code.
 
+- Week 11: CRS and Spatial Operations
+
+Reprojected the stream dataset to EPSG:32632 and performed spatial analysis, including stream length measurement in kilometres, spatial counting of stream points within buffer polygons, nearest-stream distance analysis, and geometry validity checks.
+
 
 
 
