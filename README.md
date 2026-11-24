@@ -82,6 +82,8 @@ This month, I gained a better understanding of how Python functions, loops, dict
 
 Reprojected the stream dataset to EPSG:32632 and performed spatial analysis, including stream length measurement in kilometres, spatial counting of stream points within buffer polygons, nearest-stream distance analysis, and geometry validity checks.
 
+- Week 12: Rasters, computed NDVI for Ibadan North LGA and summarised it per wards
+
 
 
 
